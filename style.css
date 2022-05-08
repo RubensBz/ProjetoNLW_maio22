@@ -12,6 +12,7 @@
   --brand-beige: hsl(39, 100%, 97%);
   --brand-green: hsl(148, 23%, 89%);
   --brand-ligth: hsl(180, 14%, 97%);
+  --brand-button-hover: hsl(170, 100%, 14%);
 
   --nav-height: 7.2rem;
 
@@ -80,6 +81,43 @@ section .content p {
   font-size: 1.6rem;
   line-height: 150%;
   color: var(--paragraph);
+}
+
+.appointment-schedule {
+  background: var(--primary-color);
+
+  border: none;
+  border-radius: 4rem;
+
+  margin-bottom: 6rem;
+
+  padding: 1.6rem 3.2rem;
+  width: fit-content;
+
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+
+  margin-inline: auto;
+  text-decoration: none;
+  transition: 200ms;
+}
+
+.appointment-schedule:hover {
+  background-color: var(--brand-button-hover);
+}
+
+.social-links {
+  display: flex;
+  gap: 3.2rem;
+  align-items: center;
+  justify-content: center;
 }
 
 /*================NAVIGATION==================*/
@@ -193,13 +231,6 @@ body.menu-expanded .menu {
   margin-bottom: 8rem;
 }
 
-.social-links {
-  display: flex;
-  gap: 3.2rem;
-  align-items: center;
-  justify-content: center;
-}
-
 body.menu-expanded .logo,
 body.menu-expanded nav button {
   position: relative;
@@ -253,30 +284,6 @@ body.menu-expanded button path {
   color: var(--paragraph);
 
   margin-bottom: 3.2rem;
-}
-
-#home .appointment-schedule {
-  background: var(--primary-color);
-
-  border: none;
-  border-radius: 4rem;
-
-  margin-bottom: 6rem;
-
-  height: 6.2rem;
-  width: 26.3rem;
-
-  color: white;
-  font-size: 1.4rem;
-  font-weight: 700;
-  text-transform: uppercase;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1.6rem;
-
-  margin-inline: auto;
 }
 
 #home img {
@@ -353,4 +360,76 @@ about header h2 {
 #about .content p {
   margin-top: 2.4rem;
   margin-bottom: 6rem;
+}
+/*=================CONTACT=====================*/
+#contact {
+  text-align: left;
+}
+
+#contact header {
+  margin-bottom: 3.2rem;
+}
+
+#contact ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+
+  margin-bottom: 3.2rem;
+}
+
+#contact ul li {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+/*=================FOOTER=====================*/
+footer {
+  background-color: var(--primary-color);
+  padding-block: 6rem;
+
+  text-align: left;
+
+  color: white;
+}
+
+footer .logo {
+  display: inline-block;
+  margin-bottom: 2.4rem;
+}
+
+footer .logo svg {
+  width: 23.6rem;
+  height: 3.1rem;
+}
+
+footer .logo path {
+  fill: white;
+}
+
+footer p {
+  color: var(--brand-beige);
+  line-height: 2;
+}
+
+footer .social-links {
+  margin-top: 3.2rem;
+  justify-content: flex-start;
+}
+
+/*=================backToTop=====================*/
+
+#backToTopButton {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 3rem;
+
+  opacity: 0;
+  visibility: hidden;
+}
+
+#backToTopButton.show {
+  opacity: 1;
+  visibility: visible;
 }

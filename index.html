@@ -15,7 +15,7 @@
     />
   </head>
 
-  <body onscroll="onScroll()">
+  <body>
     <nav id="navigation">
       <div class="wrapper">
         <a onclick="closeMenu()" class="logo" href="#home">
@@ -75,7 +75,9 @@
             <li><a onclick="closeMenu()" href="#services">Serviços</a></li>
             <li><a onclick="closeMenu()" href="#about">Sobre</a></li>
           </ul>
-          <a class="button" href="#">Agende sua consulta</a>
+          <a class="button" onclick="closeMenu()" href="#contact"
+            >Agende sua consulta</a
+          >
 
           <ul class="social-links">
             <li>
@@ -697,7 +699,6 @@
         />
       </svg>
     </a>
-
     <script src="main.js", "https://unpkg.com/scrollreveal"></script>
   </body>
 </html>

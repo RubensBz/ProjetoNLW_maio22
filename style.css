@@ -725,6 +725,7 @@ footer .social-links {
     width: 40rem;
     align-self: center;
     margin-top: auto;
+    gap: 6.7rem;
   }
 
   #contact h2 {

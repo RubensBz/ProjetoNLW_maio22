@@ -40,7 +40,28 @@ Site DoctorCare - HTML5, CSS3, Javascript, Desing Responsivo.
     <svg>
     fill
     stroke
-- Adicionado link para contato via whatsapp `https://wa.me/5500982156026`
+- Adicionado link para contato via whatsapp `https://wa.me/5500982156026
+      
+      
+3º upload 
+ -------------------------------------------------------   
+Alteração no index.html
+Inclusão de novas class nos campos abaixo:
+Section "home"
+  - class col-a
+  - class col-b
+  - 
+ Section "Services"
+  - class col-a
+  - class col-b
+ 
+Section "contact"
+  - class col-a
+  - class col-b
+  
+Section "About"
+  - class col-a
+  - class col-b
 
 
   

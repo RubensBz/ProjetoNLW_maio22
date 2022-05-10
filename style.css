@@ -721,8 +721,10 @@ footer .social-links {
     grid-template-areas: 'A B';
   }
 
-  #contact .col-a {
+ #contact .wrapper .col-a {
+    width: 40rem;
     align-self: center;
+    margin-top: auto;
   }
 
   #contact h2 {

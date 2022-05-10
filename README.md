@@ -63,6 +63,11 @@ Section "About"
   - class col-a
   - class col-b
 
+ 4º upload 
+ -------------------------------------------------------   
+Alteração no style.css
+Inclusão de Desing responsivo para a página
+
 
   
   

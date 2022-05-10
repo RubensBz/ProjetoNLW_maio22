@@ -504,7 +504,7 @@ footer .social-links {
   /* =============navigation==============*/
   body #navigation .wrapper {
     padding-left: 12.3rem;
-    padding-right: 14.3rem;
+    padding-right: 16rem;
   }
   /*reset*/
   nav#navigation .wrapper * {
@@ -532,7 +532,7 @@ footer .social-links {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 60%;
+    width: 65%;
   }
 
   nav#navigation .menu ul:nth-child(1) {
@@ -719,17 +719,40 @@ footer .social-links {
     padding-inline: 12.3rem;
     grid-template-columns: 1fr, 57.5rem;
     grid-template-areas: 'A B';
+    gap: 6.7rem;
   }
 
- #contact .wrapper .col-a {
+  #contact .wrapper .col-a {
     width: 40rem;
     align-self: center;
     margin-top: auto;
-    gap: 6.7rem;
   }
 
   #contact h2 {
     font-style: bold;
     font-size: 4rem;
+  }
+
+  /*=== contact =================================*/
+  footer {
+    padding-block: 8rem;
+  }
+  footer .wrapper {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'A B';
+    padding-inline: 12.3rem;
+  }
+
+  footer .col-a {
+    align-self: center;
+  }
+
+  footer .col-b {
+    align-self: center;
+    justify-self: flex-end;
+  }
+
+  footer p {
+    margin-bottom: 0;
   }
 }
